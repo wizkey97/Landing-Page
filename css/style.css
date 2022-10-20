@@ -5,40 +5,49 @@
 
 body {
     margin: 0px;
-    padding: 0px;
-    
-    
+    padding: 0px;    
 }
 
 
 header {
     background-color: #1f2937;
     display: flex;
-    justify-content: space-around;
-    
+    flex-direction: column;   
 }
 
 
-.header-logo {
-    padding-right: 265px;
-    width: 600px;
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.header-logo { 
     font-size: 24px;
+    font-weight: 800;
     color: #f9faf8;
     display: flex;
     justify-content: center;
-    flex: auto;
-    
+    align-items: center;
+    flex: 1;   
 }
 
 
-ul {
-    padding-left: 85px;
-    width: 600px;
+.logo{
+    padding-right: 190px;
     display: flex;
-    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+
+ul { 
+    padding-left: 150px;
+    display: flex;
+    justify-content: center;
     list-style: none;
-    flex: auto;
     gap: 30px;
+    flex: 1; 
 }
 
 
@@ -59,11 +68,8 @@ a:hover {
 
 
 .title-container{
-    background-color: #1f2937;
     display: flex;
-    justify-content: space-between;
-    
-
+    justify-content: space-around;
 }
 
 
@@ -74,7 +80,6 @@ a:hover {
     flex-direction: column;
     align-items: center;
     flex: 1;
-
 }
 
 
@@ -82,14 +87,15 @@ a:hover {
     margin-top: 100px;
     margin-bottom: 100px;
     display: flex;
-    flex: 1;
+    justify-content: center;
+    flex: 1;  
 }
 
 
 .title-img{
     border: 5px solid gray;
     width: 500px;
-    height: 220px;
+    height: 220px;  
 }
 
 
@@ -99,8 +105,6 @@ a:hover {
     font-weight: 800;
     font-size: 48px;
     color: #f9faf8;
-    
-
 }
 
 
@@ -110,8 +114,6 @@ a:hover {
     font-size: 18px;
     color: #F9FAF8;
     display: flex;
-    
-
 }
 
 button{
@@ -121,11 +123,7 @@ button{
     border-radius: 5px;
     font-size: 20px;
     padding: 5px 20px 5px 20px;
-    font-weight: bold;
-    
-    
-    
-    
+    font-weight: bold;   
 }
 
 
@@ -137,8 +135,7 @@ button:hover{
 
 .button{
     padding-top: 10px;
-    padding-right: 290px;
-    
+    padding-right: 290px;  
 }
 
 
