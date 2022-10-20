@@ -6,7 +6,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    font-family:'Times New Roman', Times, serif;
+    
     
 }
 
@@ -19,9 +19,9 @@ header {
 }
 
 
-.headerlogo {
+.header-logo {
+    padding-right: 265px;
     width: 600px;
-    padding-right: 150px;
     font-size: 24px;
     color: #f9faf8;
     display: flex;
@@ -32,12 +32,13 @@ header {
 
 
 ul {
+    padding-left: 85px;
     width: 600px;
     display: flex;
-    justify-content: space-around;
     align-items: center;
     list-style: none;
     flex: auto;
+    gap: 30px;
 }
 
 
@@ -53,7 +54,91 @@ a {
 
 
 a:hover {
-    color: aqua;
+    color: #3882f6;
+}
+
+
+.title-container{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+
+.title{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+
+}
+
+
+.image{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex: 1;
+}
+
+
+.title-img{
+    border: 5px solid gray;
+    width: 500px;
+    height: 220px;
+}
+
+
+.main-title{
+    width: 400px;
+    margin: 0px;
+    font-weight: 800;
+    font-size: 48px;
+    color: #f9faf8;
+    
+
+}
+
+
+.title-text{
+    width: 400px;
+    margin: 0px;
+    font-size: 18px;
+    color: #F9FAF8;
+    display: flex;
+    
+
+}
+
+button{
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px 20px 5px 20px;
+    font-weight: bold;
+    
+    
+    
+    
+}
+
+
+button:hover{
+    cursor: pointer;
+    
+}
+
+
+.button{
+    padding-top: 10px;
+    padding-right: 290px;
+    
 }
 
 
