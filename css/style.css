@@ -80,6 +80,7 @@ a:hover {
     flex-direction: column;
     align-items: center;
     flex: 1;
+    
 }
 
 
@@ -93,6 +94,7 @@ a:hover {
 
 
 .title-img{
+    background-color: gray;
     border: 5px solid gray;
     width: 500px;
     height: 220px;  
@@ -102,7 +104,7 @@ a:hover {
 .main-title{
     width: 400px;
     margin: 0px;
-    font-weight: 800;
+    font-weight: 900;
     font-size: 48px;
     color: #f9faf8;
 }
@@ -139,6 +141,75 @@ button:hover{
 }
 
 
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;  
+}
+
+
+.info-title{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937; 
+}
+
+.info-imagecontainer{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.info-imagebox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;  
+}
+
+
+.info-image{
+    border: 5px solid #3882f6;
+    height: 200px;
+    width: 200px;
+}
+
+
+.info-imagetext{
+    width: 200px;
+}
+
+
+.quote-section{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+    margin: 0;
+     
+}
+
+
+.quote{
+    font-size: 36px;
+    font-style: light italic;
+    color: #1f2937;
+    width: 800px;
+    margin: 0px;
+    
+      
+}
+
+.quote-credit{
+    text-align: end;
+    width: 800px;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0px;
+}
 
 
 
