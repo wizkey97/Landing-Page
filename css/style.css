@@ -118,6 +118,7 @@ a:hover {
     display: flex;
 }
 
+
 button{
     color: #f9faf8;
     background-color: #3882f6;
@@ -141,6 +142,12 @@ button:hover{
 }
 
 
+.buttontwo{
+    border-color: white;
+    border: solid;
+}
+
+
 .info-container {
     display: flex;
     flex-direction: column;
@@ -155,6 +162,7 @@ button:hover{
     font-weight: 900;
     color: #1f2937; 
 }
+
 
 .info-imagecontainer{
     display: flex;
@@ -171,6 +179,7 @@ button:hover{
 
 
 .info-image{
+    background-color: #3882f6 ;
     border: 5px solid #3882f6;
     height: 200px;
     width: 200px;
@@ -188,8 +197,7 @@ button:hover{
     flex-direction: column;
     align-items: center;
     padding: 100px;
-    margin: 0;
-     
+    margin: 0;  
 }
 
 
@@ -198,9 +206,7 @@ button:hover{
     font-style: light italic;
     color: #1f2937;
     width: 800px;
-    margin: 0px;
-    
-      
+    margin: 0px;  
 }
 
 .quote-credit{
@@ -211,5 +217,37 @@ button:hover{
     margin: 0px;
 }
 
+
+.productbox{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;   
+}
+
+
+.productsignup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: white;
+    font-size: 24px;
+    width: 800px;
+    height: 150px; 
+}
+
+
+.productsignupbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 350px;
+}
 
 
