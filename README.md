@@ -1,7 +1,7 @@
 # Landing-Page
-The odin project
+The odin project|
 Project: Landing Page
 
-HTML
+HTML|
 CSS
 
